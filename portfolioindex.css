@@ -1,9 +1,5 @@
-#f1,#f2,#f3,#f4,#f5,#f6{
-    opacity: 0;
-    
-}
 .backstyle{
-    background-image: url('bg-callout.jpg'); 
+    background-image: url('fiore_giallo_foto_2_1440x900.jpg');  /* customize the head image back ground */
     
     padding: 5%;}
 li{
@@ -11,13 +7,13 @@ li{
 
 }
 .yhello{
-    color: white;
+    color: white; /* customize the header items color to white */
 }
-#image-zoom-out{
+#image-zoom-out{ /*customizethe image size*/
     width: 150px;
     height: 150px;
 }
-.projects-zoom-out{
+.projects-zoom-out{ /*customize the grid cells */
     width: 200px;
     height: 200px;
     padding: 5%;
@@ -53,31 +49,31 @@ li{
     vertical-align: middle;
 }
 
-.pfluid{
+.pfluid{ 
     padding: 5%;
     background-color: rgba(248, 248, 255, 0.925);
 }
 .wone{
     color:rgb(132, 197, 240);
 }
-.cntus{
+.cntus{ /* customize the background color of contact me div */
     background-color: rgba(248, 248, 255, 0.925);
      padding: 5%;
 }
-.abus{
+.abus{ /* customize the background color of about me div */
     background-color: rgb(132, 197, 240);
      padding: 5%;
 }
-.touch{
+.touch{ /* customize the footer */
     background-color:rgb(132, 197, 240) ; padding: 5%;
     color: white;
 }
-.afooter{
+.afooter{  /* customize the footer links */
     text-decoration: underline;
     color: white;
 }
 
-/* Responsive layout - makes a two column-layout instead of four columns */
+/* customize the grid */
 @media screen and (max-width: 800px) {
     .column {
         -ms-flex: 50%;
@@ -87,7 +83,7 @@ li{
     
 }
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+/*cutomize the grid  */
 @media screen and (max-width: 600px) {
     .column {
         -ms-flex: 100%;
@@ -95,162 +91,4 @@ li{
         max-width: 100%;
     }
    
-}
-@media screen and (max-width: 500px){
-    #psize1,#psize2,#psize3,#psize4{
-       padding: 5px;
-        font-size: 25px;
-    }
-}
-/******** images ppopup *******/
-
-/* The Modal (background) */
-.modal,.modal2,.modal3,.modal4,.modal5,.modal6 {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
-}
-
-/* Modal Content (image) */
-.modal-content,.modal-content2,.modal-content3,.modal-content4,.modal-content5,.modal-content6 {
-    margin: auto;
-    display: block;
-    width: 80%;
-    max-width: 700px;
-}
-
-/* Caption of Modal Image */
-#caption,#caption2,#caption3,#caption4,#caption5,#caption6 {
-    margin: auto;
-    display: block;
-    width: 80%;
-    max-width: 700px;
-    text-align: center;
-    color: #ccc;
-    padding: 10px 0;
-    height: 150px;
-}
-
-/* Add Animation */
-.modal-content,#caption{    
-    -webkit-animation-name: zoom;
-    -webkit-animation-duration: 0.6s;
-    animation-name: zoom;
-    animation-duration: 0.6s;
-}
-.modal-content2,#caption2{    
-    -webkit-animation-name: zoom2;
-    -webkit-animation-duration: 0.6s;
-    animation-name: zoom2;
-    animation-duration: 0.6s;
-}
-.modal-content3,#caption3{    
-    -webkit-animation-name: zoom3;
-    -webkit-animation-duration: 0.6s;
-    animation-name: zoom3;
-    animation-duration: 0.6s;
-}
-.modal-content4,#caption4{    
-    -webkit-animation-name: zoom4;
-    -webkit-animation-duration: 0.6s;
-    animation-name: zoom4;
-    animation-duration: 0.6s;
-}
-.modal-content5,#caption5{    
-    -webkit-animation-name: zoom5;
-    -webkit-animation-duration: 0.6s;
-    animation-name: zoom5;
-    animation-duration: 0.6s;
-}
-.modal-content6,#caption6{    
-    -webkit-animation-name: zoom6;
-    -webkit-animation-duration: 0.6s;
-    animation-name: zoom6;
-    animation-duration: 0.6s;
-}
-@-webkit-keyframes zoom {
-    from {-webkit-transform:scale(0)} 
-    to {-webkit-transform:scale(1)}
-}
-
-@keyframes zoom {
-    from {transform:scale(0)} 
-    to {transform:scale(1)}
-}
-@-webkit-keyframes zoom2 {
-    from {-webkit-transform:scale(0)} 
-    to {-webkit-transform:scale(1)}
-}
-
-@keyframes zoom2 {
-    from {transform:scale(0)} 
-    to {transform:scale(1)}
-}
-@-webkit-keyframes zoom3 {
-    from {-webkit-transform:scale(0)} 
-    to {-webkit-transform:scale(1)}
-}
-
-@keyframes zoom3 {
-    from {transform:scale(0)} 
-    to {transform:scale(1)}
-}
-@-webkit-keyframes zoom4 {
-    from {-webkit-transform:scale(0)} 
-    to {-webkit-transform:scale(1)}
-}
-
-@keyframes zoom4 {
-    from {transform:scale(0)} 
-    to {transform:scale(1)}
-}
-@-webkit-keyframes zoom5 {
-    from {-webkit-transform:scale(0)} 
-    to {-webkit-transform:scale(1)}
-}
-
-@keyframes zoom5 {
-    from {transform:scale(0)} 
-    to {transform:scale(1)}
-}
-@-webkit-keyframes zoom6 {
-    from {-webkit-transform:scale(0)} 
-    to {-webkit-transform:scale(1)}
-}
-
-@keyframes zoom6 {
-    from {transform:scale(0)} 
-    to {transform:scale(1)}
-}
-/* The Close Button */
-.close {
-    position: absolute;
-    top: 15px;
-    right: 35px;
-    color: #f1f1f1;
-    font-size: 40px;
-    font-weight: bold;
-    transition: 0.3s;
-}
-
-.close:hover,
-.close:focus {
-    color: #bbb;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-/* 100% Image Width on Smaller Screens */
-@media only screen and (max-width: 700px){
-    .modal-content {
-        width: 100%;
-    }
 }
