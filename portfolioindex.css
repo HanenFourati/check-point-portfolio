@@ -1,13 +1,32 @@
 .backstyle{
-    background-image: url('fiore_giallo_foto_2_1440x900.jpg');  /* customize the head image back ground */
+    background-image: url('33249-NZCLGV.jpg');  /* customize the head image back ground */
+    padding-top: 9%;
+    box-sizing: border-box;
+    -webkit-animation: slide 20s linear infinite;
+  
     
-    padding: 5%;}
+}
+@-webkit-keyframes slide {
+    from { background-position: 0 0; }
+    to { background-position: -400px 0; }
+}
+.smallcar{
+    width: 200px;
+    height: 200px;
+    
+}
+
+.shady{
+    -moz-box-shadow:0 5px 5px rgba(182, 182, 182, 0.75);
+    -webkit-box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75);
+    box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75);
+}
 li{
     list-style-type: none;
 
 }
 .yhello{
-    color: white; /* customize the header items color to white */
+    color: #ffbb33 ; /* customize the header items color to white */
 }
 #image-zoom-out{ /*customizethe image size*/
     width: 150px;
@@ -71,6 +90,7 @@ li{
 .afooter{  /* customize the footer links */
     text-decoration: underline;
     color: white;
+    font-size: 20px;
 }
 
 /* customize the grid */
